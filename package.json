@@ -1,0 +1,20 @@
+{
+  "name": "surfside-manager-server",
+  "version": "0.0.1",
+  "description": "Server for Surfside Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Barber (@JoshwJB), Surfside Solutions",
+  "license": "None",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^7.1.3",
+    "multer": "^1.2.0",
+    "mysql": "^2.10.2"
+  }
+}
